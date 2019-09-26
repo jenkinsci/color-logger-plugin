@@ -16,6 +16,12 @@
   <version>1.0</version>
   <packaging>hpi</packaging>
 
+  <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/color-logger-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/color-logger-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/color-logger-plugin</url>
+  </scm>
+  
   <developers>
     <developer>
       <id>albert.lv</id>
