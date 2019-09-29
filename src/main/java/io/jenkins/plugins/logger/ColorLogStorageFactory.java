@@ -28,7 +28,7 @@ public class ColorLogStorageFactory implements LogStorageFactory {
         if (LOGGER.isLoggable(Level.FINE)) {
           LOGGER.log(Level.FINE, "Jenkins got ColorLogStorage");
         }
-        return new ColorLogStorage(new File(owner.getRootDir(), "log"));
+        return ColorLogStorage.forFile(new File(owner.getRootDir(), "log"));
       } else {
         return null;
       }
